@@ -1,0 +1,82 @@
+.main1 {
+	max-width: 100%;
+	margin: 1px;
+	background-image: linear-gradient(rgba(225,225,225,0.5), rgba(255,255,255,0.5)), url(../Desktop/week1/image/bg.jpg);
+	height: 100%;
+	background-size: auto;
+	background-position: center;
+	z-index: -1;
+}
+
+.main {
+	margin: 2px;
+	z-index: 5;
+	max-width: 100%;
+
+}
+
+.movie {
+	font-size: 18px;
+	max-width: 500px;
+	text-position: center;
+}
+
+
+.head {
+	background-image: linear-gradient(rgba(255,255,255, 0.6),rgba(255,255,255, 0.6)), url(../Desktop/week1/image/yo.jpg);
+	height: 560px;
+	background-size: auto;
+	background-position: center;
+	margin: 0px;
+}
+
+.description {
+	font-size: 20px;
+	text-position: center;
+	max-width: 500px;
+	text-align: justify;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.user {
+	padding-left: 5px;
+	font-size: 25px;
+	font-weight: bolder;
+	text-position: center;
+
+}
+
+.rreview {
+	padding-left: 5px;
+	position: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.rrate {
+	padding-left: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	position: center;
+}
+
+.review_format {
+	position: center;
+	font-size: 15px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+
+.ureview {
+	font-size: 20px;
+}
+
+.font {
+	font-size: 20px;
+}
+
+.user {
+	font-size: 25px;
+}

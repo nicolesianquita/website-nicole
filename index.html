@@ -1,15 +1,57 @@
-<DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
-	<head> 
-		<title>this is the text you see on your browser's tab</title>
+	<head>
+		<title>Movie Review</title>
+		<link rel="stylesheet" type="text/css" href="sianquita.css">
+
 	</head>
 	<body>
-		<!--Headings -->
-		<h1>nicole kay</h1>
-		<p> NICOLE KAY SIANQUITA </p>
 
+		<header class="head">
+
+			<center><p id="movie1" class="movie">Before Sunrise</p></center>
+			<center><img src="images/images.jpeg" width="250px" height="350px"></center>
+			
+			<center><p class="description">Before Sunrise is a romance between a young American (Jesse) and a French student (Celine). A chance encounter on the train incites intrigue, and Jesse provocatively suggests that Celine postpones her return to France and embarks instead on a spontaneous expedition to Vienna.
+			</p></center>
+		</header>
+
+
+		<div class="main1">
+			<div class="main">
+				<center>
+				<div class="left">
+					<br>
+					<label class="user">Username:
+					<br> 
+						<input type="text" name="uname" id="uname">
+					</label>
+					<br>
+					<br>
+
+					<label class="rreview" required>Review:
+					<br>
+						<textarea rows="5" cols="80" placeholder="Your insights about the movie..... " id = "ureview" class="ureview"></textarea>
+					</label>
+
+					<br>
+					<br>
+
+					<label class="rrate">Rating:	
+						<br>				
+						<select id="urate" class="font">
+							<option>1 star</option> 
+							<option>2 stars</option>
+							<option>3 stars</option>
+							<option>4 stars</option>
+							<option>5 stars</option>
+						</select>
+					</label>
+				</div>
+
+				</center>
+			</div>
+		</div>
 
 	</body>
-
 </html>
